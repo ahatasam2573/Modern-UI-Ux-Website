@@ -1,11 +1,12 @@
 import React from 'react';
 import { Navbar, Cta, Brand } from './components';
 import { Footer, Blogs, Possibility, Features, WhatModernSite, Header } from './containers';
+import './App.css';
 
 const App = () => {
   return (
     <div className='App'>
-      <div className="gradient__bg">
+      <div>
         <Navbar />
         <Header />
       </div>

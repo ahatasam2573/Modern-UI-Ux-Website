@@ -1,0 +1,15 @@
+bg__gradient{
+    background:-moz-radial-gradient(circle at 3% 25%, rgba(149, 149, 193, 1) 0%, rgba(7, 14, 23, 1) 100%);
+    
+       
+        background:-webkit-radial-gradient(circle at 3% 25%, rgba(149, 149, 193, 1) 0%, rgba(7, 14, 23, 1) 100%);
+    
+  
+        background:-o-radial-gradient(circle at 3% 25%, rgba(149, 149, 193, 1) 0%, rgba(7, 14, 23, 1) 100%);
+    
+     
+        background:-ms-radial-gradient(circle at 3% 25%, rgba(149, 149, 193, 1) 0%, rgba(7, 14, 23, 1) 100%);
+    
+
+        background:radial-gradient(circle at 3% 25%, rgba(149, 149, 193, 1) 0%, rgba(7, 14, 23, 1) 100%);
+}
