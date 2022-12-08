@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../assets/logo.svg'
 import './Navbar.css';
 
 //Using multiple times
@@ -20,7 +19,7 @@ const Navbar = () => {
         <div className='bg__gradient' id='modern__navbar'>
             <div className="modern__navbar-links">
                 <div className="modern__navbar-links_logo">
-                    <img src={logo} alt="logo" />
+                    <h1>3.0</h1>
                 </div>
                 <div className="modern__navbar-links_container">
                     <Menu />

@@ -12,3 +12,14 @@
   --color-text: #81AFDD;
   --color-subtext: #FF8A71;
 }
+a{
+  color: unset;
+  text-decoration: none;
+};
+/* .section__padding{
+  padding: 4rem 6rem;
+};
+.section__margin{
+  margin: 4rem 6rem;
+}; */
+

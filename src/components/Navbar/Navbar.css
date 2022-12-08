@@ -27,12 +27,12 @@
     justify-content: flex-start;
     align-items: center;
 }
-.modern__navbar-links_logo{
+.modern__navbar-links_logo h1{
     margin-right: 2rem;
-}
-.modern__navbar-links_logo img{
     width: 62.56px;
-    height: 16.02px;
+    color: var(--color-blog);
+    font-size: 60px;
+    font-weight: 700;
 }
 
 .modern__navbar-links_container{
@@ -120,6 +120,32 @@
     cursor: pointer;
     margin: 0 1rem;
 }
+.scale-up-center {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    }
+    
+    @-webkit-keyframes scale-up-center {
+      0% {
+        -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+      }
+      100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+      }
+    }
+    
+    @keyframes scale-up-center {
+      0% {
+        -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+      }
+      100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+      }
+    }
 
 @media screen and (max-width: 1050px){
     .modern__navbar-links_container{
@@ -140,14 +166,21 @@
         padding: 2rem;
     }
 
-    /* .modern__navbar-sign{
+    .modern__navbar-sign{
         display: none;
-    } */
+    }
     .modern__navbar-menu_container{
         top: 20px;
     }
-    /* .modern__navbar-menu_container-links-sign{
+    .modern__navbar-menu_container-links-sign{
         display: block;
-    } */
-    
+        margin-right: 20px;
+    }
+    .modern__navbar-links_logo{
+        margin-right: 0px;
+        padding-right: 40px;
+    }
+    .modern__navbar-links_logo img{
+        width: 56px;
+    }
 }
